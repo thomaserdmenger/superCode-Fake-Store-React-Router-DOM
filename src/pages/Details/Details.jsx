@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './Details.css'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 const Details = () => {
   const [data, setData] = useState([])
@@ -36,6 +36,11 @@ const Details = () => {
                 Price: {Number(filteredData.price).toFixed(2)} €{' '}
               </p>
               <p className='details__description'>{filteredData.description}</p>
+              <Link
+                className='details__link'
+                to='/shop'>
+                Back to Shop
+              </Link>
             </article>
           ) : (
             <p>Loading...</p>
