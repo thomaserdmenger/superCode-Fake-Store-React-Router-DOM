@@ -1,5 +1,5 @@
 .home {
-  background: url(../../../public/images/home.jpg) no-repeat center;
+  background: url(/public/images/home.jpg) no-repeat center;
   background-size: cover;
   min-height: 85vh;
   display: flex;

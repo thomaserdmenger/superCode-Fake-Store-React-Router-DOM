@@ -24,4 +24,4 @@
 
 ## Screenshot-Image
 
-![](./public/images/screenshot.png)
+![](/images/screenshot.png)
