@@ -16,7 +16,7 @@
 }
 
 .details__image {
-  width: 400px;
+  max-width: 350px;
   margin-block-end: 4rem;
 }
 

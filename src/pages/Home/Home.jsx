@@ -1,8 +1,13 @@
+import { useLocation } from 'react-router-dom'
 import './Home.css'
 
 const Home = () => {
+  const location = useLocation()
+  const { pathname } = location
+  const isHomePage = pathname === '/'
+
   return (
-    <div className='wrapper'>
+    <div className={isHomePage ? 'wrapper--homepage' : 'wrapper'}>
       <main>
         <section className='home'>
           <div className='home__content-container'>
