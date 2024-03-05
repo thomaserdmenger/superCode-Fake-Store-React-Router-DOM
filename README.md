@@ -16,9 +16,8 @@
 
 ## Links
 
-<!-- - [See live site here](https://thomaserdmenger.github.io/superCode-Fake-Store-React-Router-DOM) -->
-<!-- - [GitHub Repository](https://github.com/thomaserdmenger/superCode-Fake-Store-React-Router-DOM) -->
-
+- [See live site here](https://super-code-fake-store-react-router-3p7d2v6bu.vercel.app/)
+- [GitHub Repository](https://github.com/thomaserdmenger/superCode-Fake-Store-React-Router-DOM)
 - [GitHub Author](https://github.com/thomaserdmenger)
 - [LinkedIn Author](https://www.linkedin.com/in/thomaserdmenger/)
 
