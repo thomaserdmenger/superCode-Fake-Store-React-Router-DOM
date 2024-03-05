@@ -31,6 +31,11 @@
 
 .shop__image-container img {
   max-height: 100%;
+  transition: 1s;
+}
+
+.shop__image-container img:hover {
+  transform: scale(1.1);
 }
 
 .shop__price {
