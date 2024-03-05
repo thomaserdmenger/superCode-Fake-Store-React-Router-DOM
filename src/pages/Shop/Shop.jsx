@@ -21,14 +21,24 @@ const Shop = () => {
             {data ? (
               data.map((item) => {
                 return (
-                  <article key={item.id}>
-                    <img
-                      src={item.image}
-                      alt={item.title}
-                    />
-                    <p>{item.title}</p>
-                    <p>{Number(item.price).toFixed(2)} €</p>
-                    <Link to={`/shop/${item.id}`}>Show Details</Link>
+                  <article
+                    key={item.id}
+                    className='shop__item'>
+                    <p className='shop__title'>{item.title}</p>
+                    <div className='shop__image-container'>
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                      />
+                    </div>
+                    <p className='shop__price'>
+                      {Number(item.price).toFixed(2)} €
+                    </p>
+                    <Link
+                      className='shop__link'
+                      to={`/shop/${item.id}`}>
+                      Show Details
+                    </Link>
                   </article>
                 )
               })
