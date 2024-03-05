@@ -4,6 +4,8 @@ header {
   justify-content: space-between;
   padding-inline: 5%;
   padding-block: 1rem 4rem;
+  max-width: 1440px;
+  margin-inline: auto;
 }
 
 header nav {

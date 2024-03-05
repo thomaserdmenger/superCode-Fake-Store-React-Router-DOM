@@ -16,6 +16,8 @@ html {
 
 .wrapper {
   padding-inline: 5%;
+  max-width: 1440px;
+  margin-inline: auto;
 }
 
 img {

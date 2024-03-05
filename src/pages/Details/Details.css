@@ -12,12 +12,12 @@
 .details__title {
   font-size: 2rem;
   width: 80%;
-  margin-block-end: 2rem;
+  margin-block-end: 4rem;
 }
 
 .details__image {
-  width: 50%;
-  margin-block-end: 2rem;
+  width: 400px;
+  margin-block-end: 4rem;
 }
 
 .details__price {
