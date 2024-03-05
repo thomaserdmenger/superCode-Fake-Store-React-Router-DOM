@@ -12,5 +12,12 @@ header nav {
 }
 
 header svg {
-  width: 45px;
+  width: 35px;
+}
+
+header > a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 700;
 }
